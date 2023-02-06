@@ -1,4 +1,4 @@
-// Writing a function for doing multiplication 3 with input, then add 10, then devition with 10 and then subtraction with 5.
+// Function for doing multiplication 3 with input, then add 10, then deviation with 10, and then subtraction with 5.
 
 function mindGame(positiveNumber) {
   if (typeof positiveNumber === "number") {
@@ -12,7 +12,7 @@ function mindGame(positiveNumber) {
   }
 }
 
-// writing a function for check the input lenght is odd or even.
+// Function for check the input lenght is odd or even.
 
 function evenOdd(word) {
   if (typeof word === "string") {
@@ -27,7 +27,7 @@ function evenOdd(word) {
   }
 }
 
-// writing a function for need to find the difference between the input value and 7. If this difference is smaller than 7, you must return the subtraction. Otherwise you must return double of the input. Means twice the number you took as input.
+// Function for need to find the difference between the input value and 7. If this difference is smaller than 7, you must return the subtraction. Otherwise you must return double of the input. Means twice the number you took as input.
 
 function isLGSeven(InputNumber) {
   if (typeof InputNumber === "number") {
@@ -43,7 +43,7 @@ function isLGSeven(InputNumber) {
   }
 }
 
-// writing a function for counting how much negative value has in an array
+// Function for counting how much negative value has in an array
 function findingBadData(numberOfArray) {
   if (Array.isArray(numberOfArray)) {
     let badData = [];
@@ -60,7 +60,7 @@ function findingBadData(numberOfArray) {
   }
 }
 
-// writing a function for converting your gems into diamond
+// function for converting your gems into diamond
 
 function gemsToDiamond(firstGems, secondGems, thirdGems) {
   if (
